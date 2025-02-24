@@ -1,7 +1,19 @@
-.topSection {
+/* Replaced With ChatGPT Code FOR NOW So I Can Remember How To Use Flexbox Stuff and Layout MY Code Neatly*/
+.container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Ensure the container takes up full viewport height */
+}
+.topSection,
+.middleSection,
+.bottomSection {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    width: 100%; /* Make sections take up full width */
+    text-align: center; /* Center the text */
 }
