@@ -9,15 +9,20 @@
 <body>
     <!-- Main Page Image Carousel, 5 images and buttons to cycle between them -->
     <div class="carousel">
-        <div class="carouselButtons" >
-            <button onclick="alert('asd');"></button>
-        </div>
         <div class="carouselImages">
-            <img id="img1" src="Resources/Caurosel/2022_08_04_group-001.jpg" alt="img1">
-            <img id="img2" src="Resources/Caurosel/2022_08_04_science-005.jpg" alt="img2">
-            <img id="img3" src="Resources/Caurosel/2022_08_18_1580-1jpg.jpg" alt="img3">
-            <img id="img4" src="Resources/Caurosel/2023_11_21_167a8265-2.jpg" alt="img4">
-            <img id="img5" src="Resources/Caurosel/2023_11_21_group-library-image-aircraft-build-high-school-students.jpg" alt="img5">
+            <img id="carouselImage" src="Resources/Caurosel/2022_08_04_group-001.jpg" alt="img1">
+            <script>
+                function cycleImages(imgID){
+                    imgID = 1
+                    if (imgID == 5) {
+                        imgID = 1
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg"
+                    }
+                }
+
+            </script>
+        <div class="carouselButtons" >
+            <button onclick="cycleImages()" >Button</button>
         </div>
     </div>
 </body>
