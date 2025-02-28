@@ -11,19 +11,29 @@
     <div class="carousel">
         <div class="carouselImages">
             <img id="carouselImage" src="Resources/Caurosel/2022_08_04_group-001.jpg" alt="img1">
+            <button onclick="cycleImages()">></button>
+            </div>
             <script>
-                function cycleImages(imgID){
-                    imgID = 1
+                let imgID = 1;
+                function cycleImages(){
                     if (imgID == 5) {
-                        imgID = 1
-                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg"
-                    }
-                }
+                        imgID = 4;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg"}
+                    else if (imgID == 4) {
+                        imgID = 3;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2023_11_21_167a8265-2.jpg"}
+                    else if (imgID == 3) {
+                        imgID = 2;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_18_1580-1jpg.jpg"}
+                    else if (imgID == 2) {
+                        imgID = 1;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg" }
+                    else if (imgID == 1) {
+                        imgID = 5;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_group-001.jpg"}
 
+                }
             </script>
-        <div class="carouselButtons" >
-            <button onclick="cycleImages()" >Button</button>
-        </div>
     </div>
 </body>
 </html>

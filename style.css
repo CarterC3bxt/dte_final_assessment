@@ -4,17 +4,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 .carouselImages img {
     padding-top: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
-}
-#img1,
-#img2,
-#img3,
-#img4,
-#img5 {
-    
 }
