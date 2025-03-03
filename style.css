@@ -12,3 +12,19 @@
     height: 250px;
     overflow: hidden;
 }
+.navBar {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    align-items: center;
+}
+#navBarText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navBarButtons {
+    padding-left: 25px;
+    size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

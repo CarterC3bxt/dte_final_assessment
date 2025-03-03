@@ -7,30 +7,44 @@
     <title>Rosmini Website Demo - Main</title>
 </head>
 <body>
+    <div class="navBar">
+        <img src="Resources/RosminiLogo.png" alt="Rosmini Logo">
+        <h1 id="navBarText">Rosmini College</h1> <br>
+        <h1 id="navBarText">Charity fulfils the law</h1>
+        <div class="navBarButtons">
+            <Button id="Home">Home</Button>
+            <a href="SportsPublic.html"><Button id="Sport">Sport</Button></a>
+            <Button id="Staff">Staff</Button>
+            <Button id="Student Support">Student Support</Button>
+            <Button id="Learning Areas">Learning Areas</Button>
+            <Button id="News">News</Button>
+            <Button id="Contact Us">Contact Us</Button>
+        </div>
+    </div>
     <!-- Main Page Image Carousel, 5 images and buttons to cycle between them -->
     <div class="carousel">
         <div class="carouselImages">
             <img id="carouselImage" src="Resources/Caurosel/2022_08_04_group-001.jpg" alt="img1">
-            <button onclick="cycleImages()">></button>
+            <button id="ButtonCycle" onclick="cycleImages()">></button>
             </div>
             <script>
                 let imgID = 1;
                 function cycleImages(){
-                    if (imgID == 5) {
-                        imgID = 4;
-                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg"}
-                    else if (imgID == 4) {
-                        imgID = 3;
-                        document.getElementById("carouselImage").src = "Resources/Caurosel/2023_11_21_167a8265-2.jpg"}
-                    else if (imgID == 3) {
+                    if (imgID == 1) {
                         imgID = 2;
-                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_18_1580-1jpg.jpg"}
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2023_11_21_167a8265-2.jpg"}
                     else if (imgID == 2) {
-                        imgID = 1;
+                        imgID = 3;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_18_1580-1jpg.jpg"}
+                    else if (imgID == 3) {
+                        imgID = 4;
                         document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg" }
-                    else if (imgID == 1) {
+                    else if (imgID == 4) {
                         imgID = 5;
                         document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_group-001.jpg"}
+                    else if (imgID == 5) {
+                        imgID = 1;
+                        document.getElementById("carouselImage").src = "Resources/Caurosel/2022_08_04_science-005.jpg"}
 
                 }
             </script>
