@@ -1,22 +1,16 @@
 .carousel {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    
-}
-.carouselImages img {
-    padding-top: 30px;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
+    align-items:end;
+    justify-content: end;
+    width: 50%;
 }
 .navBar {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: row;
     align-items: center;
+    color: rgb(0, 84, 162);
 }
 #navBarText {
     display: flex;
@@ -25,6 +19,6 @@
 }
 .navBarButtons {
     padding-left: 25px;
-    size: 25px;
+    size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
