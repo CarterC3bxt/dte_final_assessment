@@ -2,7 +2,7 @@
     min-height: 100vh;
 }
 .CarouselTest {
-    width:200vh;
+    width: 100%;
     height: 50%;
 }
 
@@ -18,7 +18,22 @@
 }
 .informationText {
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.informationTextRow2 {
+    padding-left: 25%;
+}
+.informationTextRow1 h2, .informationTextRow2 h2 {
+    color: rgb(0, 82, 164);
+    font-weight: bold;
+}
+.informationTextRow1 p, .informationTextRow2 p{
+    /* color: rgb(0, 82, 164); */
+    padding-bottom: 25px;
+    font-weight: bold;
 }
 .Logo {
     width: 250px;
