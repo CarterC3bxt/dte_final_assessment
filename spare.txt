@@ -87,42 +87,29 @@
         </div>
         <!-- Info Under Carousel, still a part of middle section div -->
         <div class="informationText">
-          <img src="Resources/Info.png" alt="School Information Text">
-        </div>
-        <div class="informationText2">
-          <img src="Resources/info2.png" alt="School Information Text">
+          <div class="informationTextRow1">
+            <h2>Our Mission</h2>
+            <p>Rosmini College supports and develops well-rounded young<br> men while keeping true to the maxims of Antonio Rosmini.<br>  A holistic education in the Rosminian tradition that fosters<br> a genuine encounter with Christ.</p>
+            <h2>Our Vision</h2>
+            <p>Christ-centred young men who have the values, attitudes, knowledge <br>and skills to fulfil their life and be empowered to serve others.</p>
+            <h2>Our Values</h2>
+            <p>Dignity. Integrity. Fairness. Charity. Justice</p>
+            
+          </div>
+          <div class="informationTextRow2">
+            <h2>Our Motto</h2>
+            <p>Charity fulfils the law.</p>
+            <h2>Treaty of Waitangi</h2>
+            <p>Rosmini College is committed to the principles of the Treaty of Waitangi<br> and actively supports and encourages the achievement of its<br> Maori pupils and fosters Maori culture.</p>
+            <h2>Special Character</h2>
+            <p>Rosmini College is a learning community that requires each student to pursue<br> his fullest potential in spiritual, academic, social, cultural<br>  and co-curricular pursuits. The school will equip each student with the desire to keep the Law of Christ;</p>
+          </div>
         </div>
       </div>
           <!-- Bottom Footer Thingy -->
           <div class="bottomFooter">
-            <div class="bottomFooterRow1">
-            <a href="#" class="bottomFooterTextButton">
-              <h2>Contact Us</h2>
-              <P> 36 Dominion Street <br>
-              Takapuna <br>
-              Auckland, 0622 <br>
-              Phone: +64 9 489 5417 <br>
-              admin@rosmini.school.nz <br></P></a>
-            </div>
-            <div class="bottomFooterRow1">
-              <a href="#" class="bottomFooterTextButton">
-                Contact Us <br>
-                36 Dominion Street <br>
-                Takapuna <br>
-                Auckland, 0622 <br>
-                Phone: +64 9 489 5417 <br>
-                admin@rosmini.school.nz <br></a>
-              </div>
-              <div class="bottomFooterRow1">
-                <a href="#" class="bottomFooterTextButton">
-                  Contact Us <br>
-                  36 Dominion Street <br>
-                  Takapuna <br>
-                  Auckland, 0622 <br>
-                  Phone: +64 9 489 5417 <br>
-                  admin@rosmini.school.nz <br></a>
-                </div>
             <a href="test.com" class="bottomFooterTextButton">Test1</a>
+           <h6>Test</h6>   
           </div>
 </body>
 </html>
