@@ -112,3 +112,22 @@
     color: whitesmoke;
     text-decoration: none;
 }
+.sportsImages {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sportsImages img {
+    width: 52rem;
+    padding: 5%;
+}
+.sportsImages p {
+    padding-left: 5%;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 2rem;
+}
+#sportsImage1, #sportsImage2, #sportsImage3, #sportsImage4 {
+    outline: 14px solid rgb(0, 82, 164);  /* Fills the entire div */
+}
