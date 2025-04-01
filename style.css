@@ -14,11 +14,7 @@
 .middleSection {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     height: 100vh;
-=======
-    height: 150vh;
->>>>>>> fc4fe51438e981e4ca2f84e8b61d8d5605340e23
 
 }
 .informationTextWrapper {
