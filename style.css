@@ -3,7 +3,7 @@
 }
 .CarouselTest {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     overflow: hidden;
 }
 .CarouselTest img {
@@ -14,14 +14,14 @@
 .middleSection {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 125vh;
 
 }
 .informationTextWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 .informationText, .informationText2 {
     display: flex;
@@ -151,4 +151,13 @@
     max-width: 100vw;
     min-width: 100vw;
     max-height: 80vh;
+}
+.staffText h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 3.5rem;
+    font-weight: bold;
 }
