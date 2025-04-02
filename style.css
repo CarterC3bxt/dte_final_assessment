@@ -2,9 +2,9 @@
     min-height: 100vh;
 }
 .CarouselTest {
-    width: 100%;
-    height: 50%;
-    overflow: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 .CarouselTest img {
     width: 100%;
@@ -14,7 +14,7 @@
 .middleSection {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 100vh;
 
 }
 .informationTextWrapper {
@@ -34,8 +34,12 @@
     width: 90%;  
 }
 .informationText h2 {
-    font-size: 3rem; 
+    font-size: 3vw; 
     color: rgb(0, 82, 164)
+}
+.informationText p {
+    font-size: 0.9vw; 
+    padding-bottom: 5px;
 }
 .informationTextBottom {
     display: flex;
@@ -62,7 +66,7 @@
     height:10vh;
 }
 .topBarText {
-    font-size: 200%;
+    font-size: 3vh;
 }
 .navBarButtons{
     display: flex;
