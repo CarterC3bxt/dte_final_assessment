@@ -83,6 +83,12 @@
     text-decoration: none;
     font-size: 3vh;
 }
+.navBarButtons a:hover{
+    color: gold;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
 .navBar {
     background-color: rgb(0, 82, 164);
     padding: 20px;
@@ -113,6 +119,7 @@
     }
 .footerLinksDiv {
     padding-left: 12rem;
+    font-size: 1.2rem;
 }
 .footerlinks {
     color: whitesmoke;
@@ -160,4 +167,12 @@
     padding-top: 5%;
     font-size: 3.5rem;
     font-weight: bold;
+}
+.staffImages {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+.staffImages img{
+    width: 90%;
 }
