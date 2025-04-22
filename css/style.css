@@ -6,9 +6,13 @@
     background-color: white;
 }
 .CarouselTest {
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
     overflow: hidden;
+    border: 1vh solid rgb(32,32,32);
+    margin-top: 2vh;
 }
 .CarouselTest img {
     width: 100%;
@@ -18,7 +22,7 @@
 .middleSection {
     display: flex;
     flex-direction: column;
-    height: 125vh;
+    height: 130vh;
 
 }
 .informationTextWrapper {
@@ -53,6 +57,8 @@
     align-items: center;
     background-color: rgb(32,32,32);
     color: white;
+    padding-top: 1vh;
+    max-height: 4vh;
 }
 .informationTextBottom h2 {
 font-size: 2vh;
@@ -60,6 +66,7 @@ font-size: 2vh;
 .Logo {
     width: 25vh;
 }
+/*
 .topBar {
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -68,9 +75,9 @@ font-size: 2vh;
     align-items: center;
     color: rgb(32,32,32);
     background-color: white;
-    /* background-color: rgb(230, 250, 250); */
     height:10vh;
 }
+*/
 .topBarText {
     font-size: 3vh;
 }
@@ -89,6 +96,9 @@ font-size: 2vh;
     text-decoration: none;
     font-size: 2vh;
 }
+.navBarButtons h3 {
+    font-size: 3vh;
+}
 .navBarButtons a:hover{
     color: rgb(0, 82, 164);
     text-decoration: none;
@@ -97,10 +107,11 @@ font-size: 2vh;
 
 .navBar {
     background-color: rgb(32,32,32);
-    padding: 20px;
+    padding: 2vh;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     height: 2vh;
     max-height: 2vh;
 }
@@ -121,11 +132,11 @@ font-size: 2vh;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    height: 250px;
+    height: 25vh;
     }
 .footerLinksDiv {
     padding-left: 12rem;
-    font-size: 1.2rem;
+    font-size: 2vh;
 }
 .footerlinks {
     color: whitesmoke;
@@ -137,10 +148,9 @@ font-size: 2vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    overflow: scroll;
 }
 .sportsImages img {
-    width: 52rem;
+    width: 40rem;
     margin-left: 5%;
     margin-top: 5%;
     max-width: 100vh;
@@ -153,9 +163,12 @@ font-size: 2vh;
     font-weight: bold;
     font-size: 2rem;
 }
+.sportsImagesBlock {
+    outline: 1px solid rgb(0, 82, 164);
+}
 .sportsText p {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 2%;
     /* color: white; */
     font-weight: bold;
     font-size: 1.5rem;
