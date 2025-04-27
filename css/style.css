@@ -5,9 +5,10 @@
 .entirePage {
     background-color: white;
 }
+/* Carousel Items*/
 .CarouselTest {
     width: 100%;
-    height: 100%;
+    height: 50;
     max-height: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -19,33 +20,37 @@
     height: 100%;
     object-fit: cover;
 }
+/* Middle Section, of Main Page */
 .middleSection {
     display: flex;
     flex-direction: column;
-    height: 130vh;
-
+    height: 60vw;
 }
+/* The Div Containing all the other elements for the information text on main page */
 .informationTextWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
 }
+/* CSS for the text, images, and layout */
 .informationText, .informationText2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     overflow: hidden;
-    padding-top: 2%;
+    padding-top: 2.1%;
 }
 .informationText img {
     width: 90%;  
 }
-.informationText h2 {
-    font-size: 3vw; 
+.informationText h3 {
+    font-size: 2vw; 
     color: rgb(32,32,32);
+    padding-right: 100px;
 }
 .informationText p {
+    padding-right: 100px;
     font-size: 0.9vw; 
     padding-bottom: 5px;
     color: rgb(32,32,32);
@@ -63,10 +68,9 @@
 .informationTextBottom h2 {
 font-size: 2vh;
 }
-.Logo {
-    width: 25vh;
-}
-/*
+/*  */
+
+/* Top Bar No Longer Being Used, Kept Incase
 .topBar {
     display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -78,9 +82,11 @@ font-size: 2vh;
     height:10vh;
 }
 */
+/* Top Bar Isnt Actively Being Used, But Kept Incase I Need It Later */
 .topBarText {
     font-size: 3vh;
 }
+/* Top Navigation Bar For All Pages */
 .navBarButtons{
     display: flex;
     justify-content: space-evenly;
@@ -120,7 +126,6 @@ font-size: 2vh;
     flex-direction: column;
     justify-content: space-between;
     font-size: 350%;
-
 }
 /* Footer CSS */
 .BottomFooter {
@@ -142,6 +147,7 @@ font-size: 2vh;
     color: whitesmoke;
     text-decoration: none;
 }
+/* CSS For The Second Page (Sports Page) */
 .sportsImages {
     width: 100%;
     max-height: 90vh;
@@ -163,9 +169,6 @@ font-size: 2vh;
     font-weight: bold;
     font-size: 2rem;
 }
-.sportsImagesBlock {
-    outline: 1px solid rgb(0, 82, 164);
-}
 .sportsText p {
     padding-left: 5%;
     padding-top: 2%;
@@ -178,6 +181,7 @@ font-size: 2vh;
     min-width: 100vw;
     max-height: 80vh;
 }
+/* CSS For the last page (Staff Page) */
 .staffText h1 {
     display: flex;
     justify-content: center;
@@ -189,9 +193,31 @@ font-size: 2vh;
 }
 .staffImages {
     display: flex;
-    flex-direction: row;
-    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    gap: 40px;
 }
-.staffImages img{
-    width: 90%;
+  
+.staffImagesCol1, .staffImagesCol2 {
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+  
+.staffImagesCol1 img, .staffImagesCol2 img {
+    width: 15vh;
+    height: auto;
+    border-radius: 10px;
+    outline: 0.2vw solid rgb(0, 82, 164);
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.staffImagesCol1 p, .staffImagesCol2 p {
+    font-weight: 500;
+    font-size: 2vh;
 }
