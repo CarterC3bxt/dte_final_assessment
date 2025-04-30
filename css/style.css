@@ -107,10 +107,9 @@ font-size: 2vh;
 .navBarButtons h3 {
     font-size: 3vh;
 }
-.navBarButtons a:hover{
-    color: rgb(0, 82, 164);
-    text-decoration: none;
-    font-size: 2vh;
+.navBarButtons a:hover {
+    color: lightblue;
+    text-shadow: 0 0 5px #0052a4, 0 0 10px #0052a4;
 }
 
 .navBar {
@@ -230,4 +229,15 @@ font-size: 2vh;
 .staffImagesCol1 p, .staffImagesCol2 p {
     font-weight: 500;
     font-size: 2vh;
+}
+
+/* Hover effects*/
+.sportsImages img:hover {
+    outline: 5px solid lightblue;
+    box-shadow: 0 0 5px #0052a4, 0 0 25px #0052a4;
+}
+
+.staffImages img:hover {
+    outline: 5px solid lightblue;
+    box-shadow: 0 0 5px #0052a4, 0 0 25px #0052a4;
 }
